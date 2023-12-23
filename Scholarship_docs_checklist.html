@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Scholarship Documents Checklist</title>
     <style>
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 90vh;
             margin: 0;
         }
         footer {
@@ -17,13 +19,29 @@
             right: 10px;
         }
 		input[type=checkbox] {
-  			margin-right: 10px;
+  			margin-right: 7px;
   			transform: scale(1.5);
 		}
-
-		label {
-		font-size: 1.2em;
+		@media (max-width: 768px) {
+		body {
+			padding-left: 17px;
+			padding-right: 17px;
 		}
+		}
+		label {
+			font-size: 1.2em;
+			padding-left: 10px;
+		}
+        body {
+        background-image: url('https://www.pngall.com/wp-content/uploads/8/College-Scholarship-PNG-Free-Download.png');
+        background-size:300px; /* 80% of the original size */
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        }
+
+
+
 
     </style>
 </head>
